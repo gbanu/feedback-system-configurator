@@ -19,7 +19,7 @@ mongoose
 app.use("/auth", authRoute);
 app.use("/user", userRoute);
 app.use("/forms", formsRoute);
-app.use("/feedback", feedbackRoute);
+app.use("/answers", feedbackRoute);
 
 app.listen(process.env.PORT || "5000", () => {
   console.log("Backend is running");
